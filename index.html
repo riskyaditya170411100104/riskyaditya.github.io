@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Statistik Deskriptif</title>
+        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href=".">Statistik Deskriptif</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#statistik-deskriptif">Statistik Deskriptif</a></li>
+            <li><a href="#pengertian">Pengertian</a></li>
+            <li><a href="#tipe-statisktik-deskriptif">Tipe Statisktik Deskriptif</a></li>
+            <li><a href="#penerapan-statistik-deskriptif-menggunaka-python">Penerapan Statistik Deskriptif  Menggunaka Python</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="statistik-deskriptif">Statistik Deskriptif</h1>
+<h2 id="pengertian">Pengertian</h2>
+<blockquote>
+<p><strong>Statistik deskriptif</strong> adalah metode-metode yang berkaitan dengan pengumpulan dan Penyajian suatu gugus data sehingga memberikan informasi yang berguna.</p>
+</blockquote>
+<p>Statistik Deskriptif memberikan ringkasan sederhana tentang sempel dan pengamatan yang telah dilakukan. Ringkasan tersebut bisa berisi kuantitatif, ialah : Statistik yang terlihat dengan rapi dan ringkas bisa berupa tabel, diagram, atau grafik yang bisa memberikan informasi inti dari kumpulan data yang ada dengan mudah untuk dimengerti.</p>
+<h2 id="tipe-statisktik-deskriptif">Tipe Statisktik Deskriptif</h2>
+<h3 id="mean-rata-rata"><strong>Mean (rata-rata)</strong></h3>
+<p>Mean adalah rata-rata dari sekumpulan beberapa data angka. Mean diperoleh dari hasil penjumlahan seluruh angka yang dibagi dengan banyaknya angka itu sendiri. Jika kita memiliki N angka, kita bisa menghitung mean itu dengan rumus berikut :</p>
+<p>$$
+\overline{x}=\frac{\sum_{i=1}^{n} x_{i}}{N}=\frac{x_{1}+x_{2}+x_{3}+\ldots+x_{n}}{N}
+$$
+Dimana :</p>
+<p>x bar = x rata-rata = nilai rata-rata sampel</p>
+<p>x = data ke n</p>
+<p>n = banyaknya data</p>
+<h3 id="median"><strong>Median</strong></h3>
+<p>Median merupakan nilai tengah dari sebuah urutan data angka. Median disimbolkan dengan <em>Me</em>. Nilai dari median akan sama dengan Quartile 2 (Q2). Dalam mencari median, banyak (n) dari data ganjil dan genap memiliki cara perhitungan yang berbeda. Kita dapat menggunakan rumus sebagai berikut :</p>
+<p>$$
+{M e=Q_{2}=\left(\frac{\frac{\pi n \pi+1}{2}}{2}\right), \text {jika} \quad n \quad \text {genap}}\
+\begin{array}{c}{M e=Q_{2}=\left(\frac{n+1}{2}\right), jika \quad n \quad \text{ganjil}}\end{array}
+$$
+Dimana :</p>
+<p>Me = Median dari kelompok data</p>
+<p>n = banyak data</p>
+<h3 id="modus"><strong>Modus</strong></h3>
+<p>Modus adalah angka yang paling sering muncul dalam sekumpulan data angka. Modus didapat dengan mengumpulkan dan mengatur data untuk menghitung setiap frekuensi dari setiap hasil, dan hasil yang memiliki jumlah tertinggi bisa kita sebut modus dari kumpulan data angka tersebut. Untuk mencari modus kita dapat menggunakan rumus berikut :</p>
+<p>$$
+M_{o}=T b+p \frac{b_{1}}{b_{1}+b_{2}}
+$$
+Dimana :</p>
+<p>Mo = modus dari kelompok data</p>
+<p>Tb = tepi bawah dari elemen modus</p>
+<p>b1 = selisih frekuensi antara elemen modus dengan elemen sebelumnya</p>
+<p>b2 = selisih frekuensi antara elemen modus dengan elemen sesudahnya</p>
+<p>p = panjang interval</p>
+<p>Nb. Nilai b1 dan b2 adalah mutlak (positif)</p>
+<h3 id="varians"><strong>Varians</strong></h3>
+<p>Varian adalah ukuran penyebab setiap nilai dalam suatu himpunan data dari rata-rata. Terdapat langkah yang harus dilakukan untuk mendapatkan varians, yaitu : dengan mengambil ukuran jarak dari setiap nilai dan mengurangi rata-rata dari setiap nilai dalam data, lalu hasil dari jarak tersebut dikuadratkan dan membagi jumlah kuadrat dengan jumlah niali dalam himpunan data. Untuk menghitung varian kita dapat menggunakan rumus berikut :</p>
+<p>$$
+\sigma^{2}=\frac{\sum_{i=1}^{n}\left(x_{i}-\overline{x}\right)^{2}}{n}
+$$
+Dimana :</p>
+<p>xi = titik data</p>
+<p>x bar = rata-rata dari semua titik data</p>
+<p>n = banyak dari anggota data</p>
+<h3 id="standar-deviasi"><strong>Standar Deviasi</strong></h3>
+<p>Standar deviasi merupakan ukuran dispersi kumpulan data relatif terhadap rata-rata atau  bisa disebut kuadrat positif dari varian. Standar deviasi dihitung dengan mengakar kuadratkan nilai dari varians, jika titik data lebih dari rata-rata data maka, semakin tinggi standar deviasi. Untuk mencari standar deviasi kita bisa menggunakan rumus berikut :</p>
+<p>$$
+\sigma=\sqrt{\frac{\sum_{i=1}^{n}\left(x_{i}-\overline{x}\right)^{2}}{n}}
+$$
+Dimana :</p>
+<p>Xi = titik data</p>
+<p>x bar = rata-rata dari semua titik data</p>
+<p>n = banyak dari anggota data</p>
+<h3 id="skewness"><strong>Skewness</strong></h3>
+<p>Skewness (<em>kemiringan</em>) adalah ketidaksimetrisan pada suatu distribusi statistik dimana kurva tampak condong ke kiri atau kanan. Skewness digunakan untuk menentukan sejauh mana perbedaan suatu distribusi dengan distribusi normal. Dalam distribusi normal grafik muncul seperti kurva lonceng. Ketika suatu distribusi mengalami kemiringan ke sebelah kanan dan ekor di sisi kanan kurva lebih panjang dari ekor di sisi kiri kurva maka situasi ini dikatakan kemiringan negatif. Skewness bisa dihitung menggunakan rumus berikut :</p>
+<p>$$
+\text {Skewness}=\frac{\sum i=1^{n}\left(x_{i}-\overline{x}\right)^{i}}{(n-1) \sigma^{3}}
+$$</p>
+<p>Dimana :</p>
+<p>xi = titik data</p>
+<p>x bar = rata-rata dari distribusi</p>
+<p>n = jumlah titik dalam distribusi</p>
+<p>o = standar deviasi</p>
+<h3 id="quartile"><strong>Quartile</strong></h3>
+<p>Quartile adalah irisan nilai dari hasil pembagian data menjadi empat bagian yang sama besar. Nilai-nilai dari quartile biasanya dilambangkan dengan Q1 untuk quartile bawah. Q1 ini mempunyai nilai 25% dari data. Q2 atau disebut quartile tengah yang mempunyai nilai sama seperti median yaitu 50% dari data. dan Q3 sebagai quartile atas mempunyai nilai 75% dari data. Dalam mencari quartile kita dapat menggunakn rumus :</p>
+<p>$$
+\begin{array}{l}{Q_{1}=(n+1)\frac{1}{4}}\{Q_{2}=(n+1)\frac{1}{2}}\{Q_{3}=(n+1)\frac{3}{4}} \end{array}
+$$</p>
+<p>Dimana :</p>
+<p>Q  = nilai dari Quartile</p>
+<p>n = banyak data</p>
+<h2 id="penerapan-statistik-deskriptif-menggunaka-python"><strong>Penerapan Statistik Deskriptif  Menggunaka Python </strong></h2>
+<h3 id="alat-dan-bahan"><strong>Alat dan Bahan</strong></h3>
+<p>Sebelum menerapkan ini sebelumnya saya sudah menyiapkan 500 data acak dalam bentuk .csv untuk mempermudah dalam penerapan tersebut, perlu disiapkan library python yang dapat didownload secara gratis.</p>
+<p>dalam kasus ini, library python yang digunakan adalah sebagai berikut :</p>
+<p>1.Pandas, digunakan untuk data manajemen dan data analysis</p>
+<p>2.scipy, merupakan library berisi kumpulan algoritma dan  fungsi matematika.</p>
+<h3 id="pertama"><strong>Pertama</strong></h3>
+<p>pada langkah ini kita memasukkan librabry yang telah disiapkan sebelumnya</p>
+<pre><code class="python">import pandas as pd
+from scipy import stats
+</code></pre>
+
+<h3 id="kedua"><strong>Kedua</strong></h3>
+<p>Membuat data csv yang telah disiapkan</p>
+<pre><code class="python">data = pd.read_csv(&quot;dataexcel.csv&quot;,delimiter=&quot;,&quot;)
+</code></pre>
+
+<h3 id="ketiga"><strong>Ketiga</strong></h3>
+<p>Kemudian membuat code untuk memproses data yang akan diambil pada kolom csv yang telah dibuat, berikut code yang bisa digunakan </p>
+<pre><code class="python">for x in colum :
+    ds = [x for x in data[x]]
+    desc = data[x].describe()
+    array = [x for x in desc]
+    print (&quot;Detail Kolom &quot;, x)
+    print (&quot;Rata-Rata &quot;, array[1])
+    print (&quot;Median &quot;, np.median(np.array(ds)))
+    print (&quot;Modus : &quot;, stats.mode(ds))
+    print (&quot;Standard Deviasi : &quot;, np.std(ds))
+    print (&quot;Varian : &quot;, stats.variation(ds))
+    print (&quot;Skewness : &quot;, stats.skew(ds))
+    print (&quot;Quartil 1 : &quot;, array[4])
+    print (&quot;Quartil 2 : &quot;, array[5])
+    print (&quot;Quartil 3 : &quot;, array[6])
+    sns.distplot(data[x])
+
+    print (&quot;\n&quot;)
+</code></pre>
+
+<p>Setelah dijalan, program tersebut akan menampilkan seperti berikut :</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Stats</strong></th>
+<th align="center"><strong>X1</strong></th>
+<th align="center"><strong>X2</strong></th>
+<th align="center"><strong>X3</strong></th>
+<th align="center"><strong>X4</strong></th>
+<th align="center"><strong>X5</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">Mean</td>
+<td align="center">59.12</td>
+<td align="center">58.71</td>
+<td align="center">61.81</td>
+<td align="center">60.05</td>
+<td align="center">58.52</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Median</td>
+<td align="center">57</td>
+<td align="center">60</td>
+<td align="center">66</td>
+<td align="center">60</td>
+<td align="center">58</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Modus</td>
+<td align="center">53</td>
+<td align="center">61</td>
+<td align="center">66</td>
+<td align="center">48</td>
+<td align="center">42</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Standar Deviasi</td>
+<td align="center">16.76</td>
+<td align="center">18.74</td>
+<td align="center">17.31</td>
+<td align="center">17.44</td>
+<td align="center">17.07</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Varian</td>
+<td align="center">0.28</td>
+<td align="center">0.31</td>
+<td align="center">0.28</td>
+<td align="center">0.29</td>
+<td align="center">0.29</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Skewness</td>
+<td align="center">0.08</td>
+<td align="center">0.10</td>
+<td align="center">-0.06</td>
+<td align="center">0.06</td>
+<td align="center">0.07</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Quartile 1</td>
+<td align="center">46.5</td>
+<td align="center">42.5</td>
+<td align="center">45.5</td>
+<td align="center">44.5</td>
+<td align="center">42</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Quartile 2</td>
+<td align="center">57.0</td>
+<td align="center">60</td>
+<td align="center">66</td>
+<td align="center">60</td>
+<td align="center">58</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Quartile 3</td>
+<td align="center">73.0</td>
+<td align="center">77.5</td>
+<td align="center">76</td>
+<td align="center">76</td>
+<td align="center">74</td>
+</tr>
+</tbody>
+</table>
+<h3 id="source">Source</h3>
+<p>file dapat diunduh <a href="https://github.com/riskyaditya170411100104/riskyaditya">disini</a></p>
+<h3 id="sumber">Sumber</h3>
+<p>https://id.wikipedia.org/wiki/Statistika_deskriptif/</p>
+<p>https://salimubet.github.io/hello/</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"next": 78, "help": 191, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.0.4
+Build Date UTC : 2019-09-13 09:04:57
+-->
